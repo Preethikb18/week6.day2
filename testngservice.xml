@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="user_name" value="admin"></parameter>
+  <parameter name="user_password" value="India@123"></parameter>
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="filter" value="incident"></parameter>
+    <classes>
+      <class name="week6.day2.ServiceNow"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
